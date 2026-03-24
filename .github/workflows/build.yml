@@ -25,7 +25,7 @@ jobs:
         echo "Building Section 02: Playwright Overview"
         find section-02-playwright-overview -name pom.xml -not -path "*/target/*" | sort | while read pom; do
           echo "Building $(dirname $pom)"
-          mvn clean compile -B -q -f "$pom" || {
+          mvn clean compile -B -f "$pom" || {
             echo "Failed to compile $pom"
             exit 1
           }
@@ -52,7 +52,7 @@ jobs:
         echo "Building Section 03: Playwright Quickstart"
         find section-03-playwright-quickstart -name pom.xml -not -path "*/target/*" | sort | while read pom; do
           echo "Building $(dirname $pom)"
-          mvn clean compile -B -q -f "$pom" || {
+          mvn clean compile -B -f "$pom" || {
             echo "Failed to compile $pom"
             exit 1
           }
