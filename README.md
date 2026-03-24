@@ -8,7 +8,7 @@ If you have questions or need tech support, post your questions to the [classroo
 
 Happy coding!
 
-[<img src="images/java-design-patterns-thumbnail.png">](https://www.luv2code.com/master-java-design-patterns-github)
+[<img src="images/java-playwright-thumbnail.png">](https://www.luv2code.com/master-java-design-patterns-github)
 
 &#8287;
 ## Spring Boot Road Map - Learning Path
