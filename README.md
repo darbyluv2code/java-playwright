@@ -1,8 +1,8 @@
-# Master Java Design Patterns
+# Java Playwright: Master Web Test Automation
 
 [![Build Status](https://github.com/darbyluv2code/master-java-design-patterns/actions/workflows/build.yml/badge.svg)](https://github.com/darbyluv2code/master-java-design-patterns/actions/workflows/build.yml)
 
-Source code for the course: [Master Java Design Patterns](https://www.luv2code.com/master-java-design-patterns-github)
+Source code for the course: [Java Playwright: Master Web Test Automation](https://www.luv2code.com/master-java-design-patterns-github)
 
 If you have questions or need tech support, post your questions to the [classroom discussion forum](https://www.luv2code.com/master-java-design-patterns-github).
 
