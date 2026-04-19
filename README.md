@@ -1,14 +1,14 @@
 # Java Playwright: Master Web Test Automation
 
-[![Build Status](https://github.com/darbyluv2code/master-java-design-patterns/actions/workflows/build.yml/badge.svg)](https://github.com/darbyluv2code/master-java-design-patterns/actions/workflows/build.yml)
+[![Build Status](https://github.com/darbyluv2code/java-playwright/actions/workflows/build.yml/badge.svg)](https://github.com/darbyluv2code/java-playwright/actions/workflows/build.yml)
 
-Source code for the course: [Java Playwright: Master Web Test Automation](https://www.luv2code.com/master-java-design-patterns-github)
+Source code for the course: [Java Playwright: Master Web Test Automation](https://www.luv2code.com/java-playwright-github)
 
-If you have questions or need tech support, post your questions to the [classroom discussion forum](https://www.luv2code.com/master-java-design-patterns-github).
+If you have questions or need tech support, post your questions to the [classroom discussion forum](https://www.luv2code.com/java-playwright-github).
 
 Happy coding!
 
-[<img src="images/java-playwright-thumbnail.png">](https://www.luv2code.com/master-java-design-patterns-github)
+[<img src="images/java-playwright-thumbnail.png">](https://www.luv2code.com/java-playwright-github)
 
 &#8287;
 ## Spring Boot Road Map - Learning Path
@@ -37,6 +37,11 @@ This is an intermediate level course that includes four REST API projects:
 For full stack projects, you have the choice of either Angular or React. Pick the one that you like the best.
 1. [Full Stack: Angular and Spring Boot](https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/?referralCode=2264F90C65A86316BB6B)
 1. [Full Stack: React and Spring Boot](https://www.udemy.com/course/full-stack-react-and-java-spring-boot-the-developer-guide/?referralCode=4325FA579FD3D313E28D)
+
+## Java Web Test Automation
+1. [Java Playwright: Master Web Test Automation](https://www.luv2code.com/java-playwright-github
+)
+
 
 &#8287;
 ## More luv2code Courses
