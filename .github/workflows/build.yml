@@ -58,3 +58,192 @@ jobs:
           }
         done
         echo "Section 03 completed successfully"
+
+  build-04-playwright-actions:
+    name: "Section 04: Playwright Actions"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Set up JDK 25
+      uses: actions/setup-java@v5
+      with:
+        java-version: '25'
+        distribution: 'temurin'
+        cache: 'maven'
+
+    - name: Build all projects in section
+      run: |
+        set -e
+        echo "Building Section 04: Playwright Actions"
+        find section-04-playwright-actions -name pom.xml -not -path "*/target/*" | sort | while read pom; do
+          echo "Building $(dirname $pom)"
+          mvn clean compile -B -f "$pom" || {
+            echo "Failed to compile $pom"
+            exit 1
+          }
+        done
+        echo "Section 04 completed successfully"
+
+  build-05-playwright-waiting-mechanisms:
+    name: "Section 05: Playwright Waiting Mechanisms"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Set up JDK 25
+      uses: actions/setup-java@v5
+      with:
+        java-version: '25'
+        distribution: 'temurin'
+        cache: 'maven'
+
+    - name: Build all projects in section
+      run: |
+        set -e
+        echo "Building Section 05: Playwright Waiting Mechanisms"
+        find section-05-playwright-waiting-mechanisms -name pom.xml -not -path "*/target/*" | sort | while read pom; do
+          echo "Building $(dirname $pom)"
+          mvn clean compile -B -f "$pom" || {
+            echo "Failed to compile $pom"
+            exit 1
+          }
+        done
+        echo "Section 05 completed successfully"
+
+  build-06-managing-browser-context-cookies:
+    name: "Section 06: Managing Browser Context Cookies"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Set up JDK 25
+      uses: actions/setup-java@v5
+      with:
+        java-version: '25'
+        distribution: 'temurin'
+        cache: 'maven'
+
+    - name: Build all projects in section
+      run: |
+        set -e
+        echo "Building Section 06: Managing Browser Context Cookies"
+        find section-06-managing-browser-context-cookies -name pom.xml -not -path "*/target/*" | sort | while read pom; do
+          echo "Building $(dirname $pom)"
+          mvn clean compile -B -f "$pom" || {
+            echo "Failed to compile $pom"
+            exit 1
+          }
+        done
+        echo "Section 06 completed successfully"
+
+  build-07-locators-real-time-challenges:
+    name: "Section 07: Locators and Real-Time Challenges"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Set up JDK 25
+      uses: actions/setup-java@v5
+      with:
+        java-version: '25'
+        distribution: 'temurin'
+        cache: 'maven'
+
+    - name: Build all projects in section
+      run: |
+        set -e
+        echo "Building Section 07: Locators and Real-Time Challenges"
+        find section-07-locators-real-time-challenges -name pom.xml -not -path "*/target/*" | sort | while read pom; do
+          echo "Building $(dirname $pom)"
+          mvn clean compile -B -f "$pom" || {
+            echo "Failed to compile $pom"
+            exit 1
+          }
+        done
+        echo "Section 07 completed successfully"
+
+  build-08-playwright-advanced-features:
+    name: "Section 08: Playwright Advanced Features"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Set up JDK 25
+      uses: actions/setup-java@v5
+      with:
+        java-version: '25'
+        distribution: 'temurin'
+        cache: 'maven'
+
+    - name: Build all projects in section
+      run: |
+        set -e
+        echo "Building Section 08: Playwright Advanced Features"
+        find section-08-playwright-advanced-features -name pom.xml -not -path "*/target/*" | sort | while read pom; do
+          echo "Building $(dirname $pom)"
+          mvn clean compile -B -f "$pom" || {
+            echo "Failed to compile $pom"
+            exit 1
+          }
+        done
+        echo "Section 08 completed successfully"
+
+  build-09-junit:
+    name: "Section 09: JUnit"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Set up JDK 25
+      uses: actions/setup-java@v5
+      with:
+        java-version: '25'
+        distribution: 'temurin'
+        cache: 'maven'
+
+    - name: Build all projects in section
+      run: |
+        set -e
+        echo "Building Section 09: JUnit"
+        find section-09-junit -name pom.xml -not -path "*/target/*" | sort | while read pom; do
+          echo "Building $(dirname $pom)"
+          mvn clean compile -B -f "$pom" || {
+            echo "Failed to compile $pom"
+            exit 1
+          }
+        done
+        echo "Section 09 completed successfully"
+
+  build-10-automation-framework-basic:
+    name: "Section 10: Automation Framework - Basic"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v5
+
+    - name: Set up JDK 25
+      uses: actions/setup-java@v5
+      with:
+        java-version: '25'
+        distribution: 'temurin'
+        cache: 'maven'
+
+    - name: Build all projects in section
+      run: |
+        set -e
+        echo "Building Section 10: Automation Framework - Basic"
+        find section-10-automation-framework-basic -name pom.xml -not -path "*/target/*" | sort | while read pom; do
+          echo "Building $(dirname $pom)"
+          mvn clean compile -B -f "$pom" || {
+            echo "Failed to compile $pom"
+            exit 1
+          }
+        done
+        echo "Section 10 completed successfully"
