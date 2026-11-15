@@ -33,7 +33,7 @@ public class InteractingWithWebElementsTest extends BaseTest {
         passwordField.clear();
 
         // send valid password to "Password" field
-        passwordField.type("password!");
+        passwordField.pressSequentially("password!");
 
         // submit the Registration form
         passwordField.press("Enter");
